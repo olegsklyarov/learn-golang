@@ -46,4 +46,18 @@ func main() {
 
 	printRange(bounds[int64]())
 	printRange(bounds[uint64]())
+
+	var a float32 = 0.1
+	var b float32 = 0.2
+	fmt.Printf("%.20f\n", a+b)
+
+	var x, y float64 = 0.1, 0.2
+	fmt.Println(x + y) // Выведет 0.30000000000000004
+
+	var isOk bool = false
+	fmt.Println(isOk)
+
+	var c1 complex64 = 1i
+	var c2 complex64 = 1
+	fmt.Println(c1 + c2)
 }
