@@ -12,10 +12,9 @@ func TestGetRuneByteInfo(t *testing.T) {
 		expected []RuneByteInfo
 	}{
 		{
-			name:  "empty string",
-			input: "",
-			expected: []RuneByteInfo{
-			},
+			name:     "empty string",
+			input:    "",
+			expected: []RuneByteInfo{},
 		},
 		{
 			name:  "english letters one byte each",
